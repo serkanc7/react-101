@@ -1,0 +1,10 @@
+@import '@/assets/scss/mixin/media-query';
+
+.header{
+    background-color: red;
+    height: 100px;
+
+    @include mq (tablet,max) {
+        background-color:yellow;
+    }
+}
